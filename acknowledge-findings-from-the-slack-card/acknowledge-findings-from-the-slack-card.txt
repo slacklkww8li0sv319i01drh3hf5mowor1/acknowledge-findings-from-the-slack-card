@@ -1,0 +1,15 @@
+# Arnica secret-finding simulation file (FAKE)
+# Purpose: trigger secrets scanning / Slack card policy in Arnica.
+# NOTE: All values below are intentionally fake. Do not use real credentials.
+
+# Common secret-like patterns that scanners often flag:
+
+AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKEFAKE1
+AWS_SECRET_ACCESS_KEY=FAKE+fakefakefakefakefakefakefakefakefakefakefake
+
+GITHUB_TOKEN=ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE
+
+# Generic API key patterns
+API_KEY=FAKE_API_KEY_1234567890
+
+# If you want to reduce noise, delete sections and test one pattern at a time.
